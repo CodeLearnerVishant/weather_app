@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/snowfall.jpg");
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  width: 50vh;
+  margin: 8rem auto;
+  background-color: rgba(240, 248, 255, 0.6);
+  padding: 1.7rem;
+  text-align: center;
+}
+.main > * {
+  margin-bottom: 1.6rem;
+}
+
+.input-box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+  color: #582233;
+  height: 3rem;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+  padding: 0 0.9rem;
+  text-align: center;
+}
+.input-box:focus {
+  background-color: rgba(255, 255, 255);
+}
+
+.weather-details {
+  display: none;
+  color: #582233;
+  line-height: 2rem;
+  padding: 1.7rem;
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0.6rem;
+}
+.location-details {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 1.4rem;
+}
+.temp {
+  font-size: 50pt;
+  font-weight: 800;
+  margin: 1.4rem 0;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+.min-max,
+weahter {
+  font-size: 12pt;
+  font-weight: 600;
+}
